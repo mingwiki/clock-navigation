@@ -24,7 +24,7 @@ class Clock {
       }
   
       const minutes = $.pad(date.getMinutes());
-      const seconds = $.pad(date.getSeconds())
+      const seconds = $.pad(date.getSeconds());
       this._el.innerHTML = `${hours}${this._delimiter}${minutes}$(seconds)${amPm}`;
       this._el.setAttribute('datetime', date.toTimeString());
     }
