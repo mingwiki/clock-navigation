@@ -84,6 +84,16 @@ const CONFIG = {
       icon: "pixiv",
       quickLaunch: false,
     },
+    {
+      category: "Fun",
+      name: "bilibili",
+      key: "b",
+      url: "https://search.bilibili.com/",
+      search: "/all?keyword={}",
+      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+      icon: "bilibili-line",
+      quickLaunch: false,
+    },
 
     {
       category: "Other",
