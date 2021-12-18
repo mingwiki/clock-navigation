@@ -1,79 +1,80 @@
 const CONFIG = {
-    /**
-     * The category, name, key, url, search path, color, icon, and quicklaunch properties for your commands.
-     * Icons must be added to "icons" folder and their values/names must be updated.
-     * If none of the specified keys are matched, the '*' key is used.
-     * Commands without a category don't show up in the help menu.
-     * Update line 11 and 13 if you prefer using Google.
-     */
-    commands: [{
-        name: "Google",
-        key: "*",
-        url: "https://google.com",
-        search: "/search?q={}",
-      },
-      {
-        category: "General",
-        name: "Mail",
-        key: "m",
-        url: "https://gmail.com",
-        search: "/#search/text={}",
-        color: "linear-gradient(135deg, #dd5145, #dd5145)",
-        icon: "mail",
-        quickLaunch: true,
-      },
+  /**
+   * The category, name, key, url, search path, color, icon, and quicklaunch properties for your commands.
+   * Icons must be added to "icons" folder and their values/names must be updated.
+   * If none of the specified keys are matched, the '*' key is used.
+   * Commands without a category don't show up in the help menu.
+   * Update line 11 and 13 if you prefer using Google.
+   */
+  commands: [{
+      name: "Google",
+      key: "*",
+      url: "https://google.com",
+      search: "/search?q={}",
+    },
+    {
+      category: "General",
+      name: "Mail",
+      key: "m",
+      url: "https://gmail.com",
+      search: "/#search/text={}",
+      color: "linear-gradient(135deg, #dd5145, #dd5145)",
+      icon: "mail",
+      quickLaunch: true,
+    },
 
-      {
-        category: "Programming",
-        name: "My Git",
-        key: "g",
-        url: "https://git.naizi.fun/mingwiki",
-        search: "/search?q={}",
-        color: "linear-gradient(135deg, #2b2b2b, #3b3b3b)",
-        icon: "github",
-        quickLaunch: true,
-      },
-      {
-        category: "Programming",
-        name: "StackOverflow",
-        key: "st",
-        url: "https://stackoverflow.com",
-        search: "/search?q={}",
-        color: "linear-gradient(135deg, #53341C, #F48024)",
-        icon: "stackoverflow",
-        quickLaunch: true,
-      },
-      {
-        category: "Programming",
-        name: "MDN",
-        key: "md",
-        url: "https://developer.mozilla.org/zh-CN/",
-        search: "/search?q={}",
-        color: "#212121",
-        icon: "mdn",
-        quickLaunch: false,
-      },
+    {
+      category: "Programming",
+      name: "My Git",
+      key: "g",
+      url: "https://git.naizi.fun/mingwiki",
+      search: "/search?q={}",
+      color: "linear-gradient(135deg, #2b2b2b, #3b3b3b)",
+      icon: "github",
+      quickLaunch: true,
+    },
+    {
+      category: "Programming",
+      name: "StackOverflow",
+      key: "st",
+      url: "https://stackoverflow.com",
+      search: "/search?q={}",
+      color: "linear-gradient(135deg, #53341C, #F48024)",
+      icon: "stackoverflow",
+      quickLaunch: true,
+    },
+    {
+      category: "Programming",
+      name: "MDN",
+      key: "md",
+      url: "https://developer.mozilla.org/zh-CN/",
+      search: "/search?q={}",
+      color: "#212121",
+      icon: "mdn",
+      quickLaunch: false,
+    },
 
-      {
-        category: "Fun",
-        name: "YouTube",
-        key: "y",
-        url: "https://youtube.com",
-        search: "/results?search_query={}",
-        color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-        icon: "youtube",
-        quickLaunch: false,
-      },
-      {
-        category: "Fun",
-        name: "YouTube Music",
-        key: "ym",
-        url: "https://music.youtube.com/",
-        search: "/search?q={}",
-        color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-        icon: "music",
-        quickLaunch: false,
-      },
+    {
+      category: "Fun",
+      name: "YouTube",
+      key: "y",
+      url: "https://youtube.com",
+      search: "/results?search_query={}",
+      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+      icon: "youtube",
+      quickLaunch: false,
+    },
+    {
+      category: "Fun",
+      name: "YouTube Music",
+      key: "ym",
+      url: "https://music.youtube.com/",
+      search: "/search?q={}",
+      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+      icon: "music",
+      quickLaunch: false,
+    },
+    {
       category: "Fun",
       name: "Pixiv",
       key: "p",
