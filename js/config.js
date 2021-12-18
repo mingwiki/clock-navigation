@@ -6,7 +6,8 @@ const CONFIG = {
    * Commands without a category don't show up in the help menu.
    * Update line 11 and 13 if you prefer using Google.
    */
-  commands: [{
+  commands: [
+    {
       name: "Google",
       key: "*",
       url: "https://google.com",
@@ -172,7 +173,8 @@ const CONFIG = {
    * - "DuckDuckGo" suggestions come from the duck duck go search api
    * - "History" suggestions come from your previously entered queries
    */
-  influencers: [{
+  influencers: [
+    {
       name: "Commands",
       limit: 2,
     },
