@@ -230,7 +230,7 @@ const CONFIG = {
    * The delimiter between a command key and your search query. For example,
    * to search GitHub for potatoes, you'd type "g:potatoes".
    */
-  searchDelimiter: ":",
+  searchDelimiter: " ",
 
   /**
    * The delimiter between a command key and a path. For example, you'd type
@@ -241,7 +241,7 @@ const CONFIG = {
   /**
    * The delimiter between the hours and minutes on the clock.
    */
-  clockDelimiter: " ",
+  clockDelimiter: ":",
 
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
