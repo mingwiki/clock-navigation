@@ -41,7 +41,7 @@ const CONFIG = {
     },
     {
       category: "General",
-      name: "Downloaded files",
+      name: "Files",
       url: "https://dl.naizi.fun/files",
       color: "linear-gradient(135deg, #dd5145, #dd5145)",
       icon: "files",
