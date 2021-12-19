@@ -316,7 +316,7 @@ a:focus {
 .clock {
   display: block;
   margin-top: -0.06rem;
-  font-size: 4rem;
+  font-size: 9vw;
   font-weight: var(--font-weight-normal);
   text-align: center;
   letter-spacing: 0.05rem;
@@ -484,9 +484,9 @@ body.form .search-form {
     padding: 0;
   }
 
-  .clock {
-    font-size: 6rem;
-  }
+  /* .clock {
+    font-size: 3rem;
+  } */
 
   .search-input {
     text-align: center;
