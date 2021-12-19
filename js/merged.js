@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 15:16:19 CST 2021  */
+/* Last merge : Sun Dec 19 15:18:22 CST 2021  */
 
 /* Merging order :
 
@@ -53,156 +53,155 @@ const CONFIG = {
    * Commands without a category don't show up in the help menu.
    * Update line 11 and 13 if you prefer using Google.
    */
-  commands: [
-    {
-      name: "Google",
-      key: "*",
-      url: "https://google.com",
-      search: "/search?q={}",
-    },
-    {
-      category: "General",
-      name: "Mail",
-      key: "m",
-      url: "https://gmail.com",
-      search: "/#search/text={}",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "mail",
-      quickLaunch: true,
-    },
-    {
-      category: "General",
-      name: "Anki",
-      url: "https://anki.naizi.fun",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "note",
-      quickLaunch: false,
-    },
-    // {
-    //   category: "General",
-    //   name: "Downloader",
-    //   url: "https://dl.naizi.fun",
-    //   color: "linear-gradient(135deg, #dd5145, #dd5145)",
-    //   icon: "download",
-    //   quickLaunch: false,
-    // },
-    {
-      category: "General",
-      name: "Files",
-      url: "https://dl.naizi.fun/files",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "files",
-      quickLaunch: false,
-    },
+  commands: [{
+    name: "Google",
+    key: "*",
+    url: "https://google.com",
+    search: "/search?q={}",
+  },
+  {
+    category: "General",
+    name: "Mail",
+    key: "m",
+    url: "https://gmail.com",
+    search: "/#search/text={}",
+    color: "linear-gradient(135deg, #dd5145, #dd5145)",
+    icon: "mail",
+    quickLaunch: true,
+  },
+  {
+    category: "General",
+    name: "Anki",
+    url: "https://anki.naizi.fun",
+    color: "linear-gradient(135deg, #dd5145, #dd5145)",
+    icon: "note",
+    quickLaunch: false,
+  },
+  // {
+  //   category: "General",
+  //   name: "Downloader",
+  //   url: "https://dl.naizi.fun",
+  //   color: "linear-gradient(135deg, #dd5145, #dd5145)",
+  //   icon: "download",
+  //   quickLaunch: false,
+  // },
+  {
+    category: "General",
+    name: "Files",
+    url: "https://dl.naizi.fun/files",
+    color: "linear-gradient(135deg, #dd5145, #dd5145)",
+    icon: "files",
+    quickLaunch: false,
+  },
+  {
+    category: "General",
+    name: "WebDav",
+    url: "https://dav.naizi.fun/",
+    color: "linear-gradient(135deg, #dd5145, #dd5145)",
+    icon: "webdav",
+    quickLaunch: false,
+  },
+  {
+    category: "Programming",
+    name: "My Git",
+    key: "g",
+    url: "https://git.naizi.fun/mingwiki",
+    search: "/search?q={}",
+    color: "linear-gradient(135deg, #2b2b2b, #3b3b3b)",
+    icon: "git",
+    quickLaunch: true,
+  },
+  {
+    category: "Programming",
+    name: "StackOverflow",
+    key: "st",
+    url: "https://stackoverflow.com",
+    search: "/search?q={}",
+    color: "linear-gradient(135deg, #53341C, #F48024)",
+    icon: "stackoverflow",
+    quickLaunch: true,
+  },
+  {
+    category: "Programming",
+    name: "MDN",
+    key: "md",
+    url: "https://developer.mozilla.org/zh-CN/",
+    search: "/search?q={}",
+    color: "#212121",
+    icon: "mdn",
+    quickLaunch: false,
+  },
 
-    {
-      category: "Programming",
-      name: "My Git",
-      key: "g",
-      url: "https://git.naizi.fun/mingwiki",
-      search: "/search?q={}",
-      color: "linear-gradient(135deg, #2b2b2b, #3b3b3b)",
-      icon: "git",
-      quickLaunch: true,
-    },
-    {
-      category: "Programming",
-      name: "StackOverflow",
-      key: "st",
-      url: "https://stackoverflow.com",
-      search: "/search?q={}",
-      color: "linear-gradient(135deg, #53341C, #F48024)",
-      icon: "stackoverflow",
-      quickLaunch: true,
-    },
-    {
-      category: "Programming",
-      name: "MDN",
-      key: "md",
-      url: "https://developer.mozilla.org/zh-CN/",
-      search: "/search?q={}",
-      color: "#212121",
-      icon: "mdn",
-      quickLaunch: false,
-    },
+  {
+    category: "Fun",
+    name: "YouTube",
+    key: "y",
+    url: "https://youtube.com",
+    search: "/results?search_query={}",
+    color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+    icon: "youtube",
+    quickLaunch: false,
+  },
+  // {
+  //   category: "Fun",
+  //   name: "YouTube Music",
+  //   key: "ym",
+  //   url: "https://music.youtube.com/",
+  //   search: "/search?q={}",
+  //   color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+  //   icon: "music",
+  //   quickLaunch: false,
+  // },
+  {
+    category: "Fun",
+    name: "Pixiv",
+    key: "p",
+    url: "https://www.pixiv.net/",
+    search: "/tags/{}",
+    color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+    icon: "pixiv",
+    quickLaunch: false,
+  },
+  {
+    category: "Fun",
+    name: "bilibili",
+    key: "b",
+    url: "https://search.bilibili.com/",
+    search: "/all?keyword={}",
+    color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+    icon: "bilibili-line",
+    quickLaunch: false,
+  },
 
-    {
-      category: "Fun",
-      name: "YouTube",
-      key: "y",
-      url: "https://youtube.com",
-      search: "/results?search_query={}",
-      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-      icon: "youtube",
-      quickLaunch: false,
-    },
-    // {
-    //   category: "Fun",
-    //   name: "YouTube Music",
-    //   key: "ym",
-    //   url: "https://music.youtube.com/",
-    //   search: "/search?q={}",
-    //   color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-    //   icon: "music",
-    //   quickLaunch: false,
-    // },
-    {
-      category: "Fun",
-      name: "Pixiv",
-      key: "p",
-      url: "https://www.pixiv.net/",
-      search: "/tags/{}",
-      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-      icon: "pixiv",
-      quickLaunch: false,
-    },
-    {
-      category: "Fun",
-      name: "bilibili",
-      key: "b",
-      url: "https://search.bilibili.com/",
-      search: "/all?keyword={}",
-      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-      icon: "bilibili-line",
-      quickLaunch: false,
-    },
+  {
+    category: "Other",
+    name: "Translate",
+    key: "t",
+    url: "https://translate.google.com/",
+    search: "/#view=home&op=translate&sl=auto&tl=en&text={}",
+    color: "#1a73e8",
+    icon: "translate",
+    quickLaunch: false,
+  },
+  {
+    category: "Other",
+    name: "iconfont",
+    key: "if",
+    url: "https://www.iconfont.cn/",
+    search: "/search/index?searchType=icon&q={}",
+    color: "#1a73e8",
+    icon: "library-img",
+    quickLaunch: false,
+  },
+  {
+    category: "Other",
+    name: "Bitwarden",
+    url: "https://bitwarden.naizi.fun/",
+    color: "linear-gradient(135deg, #dd5145, #dd5145)",
+    icon: "bitwarden",
+    quickLaunch: false,
+  },
 
-    {
-      category: "Other",
-      name: "Translate",
-      key: "t",
-      url: "https://translate.google.com/",
-      search: "/#view=home&op=translate&sl=auto&tl=en&text={}",
-      color: "#1a73e8",
-      icon: "translate",
-      quickLaunch: false,
-    },
-    {
-      category: "Other",
-      name: "iconfont",
-      key: "if",
-      url: "https://www.iconfont.cn/",
-      search: "/search/index?searchType=icon&q={}",
-      color: "#1a73e8",
-      icon: "library-img",
-      quickLaunch: false,
-    },
-    {
-      category: "Other",
-      name: "Bitwarden",
-      url: "https://bitwarden.naizi.fun/",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "bitwarden",
-      quickLaunch: false,
-    },
-    {
-      category: "Other",
-      name: "WebDav",
-      url: "https://dav.naizi.fun/",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "webdav",
-      quickLaunch: false,
-    },
   ],
 
   /**
@@ -220,23 +219,22 @@ const CONFIG = {
    * - "DuckDuckGo" suggestions come from the duck duck go search api
    * - "History" suggestions come from your previously entered queries
    */
-  influencers: [
-    {
-      name: "Commands",
-      limit: 2,
-    },
-    {
-      name: "Default",
-      limit: 4,
-    },
-    {
-      name: "History",
-      limit: 1,
-    },
-    {
-      name: "DuckDuckGo",
-      limit: 4,
-    },
+  influencers: [{
+    name: "Commands",
+    limit: 2,
+  },
+  {
+    name: "Default",
+    limit: 4,
+  },
+  {
+    name: "History",
+    limit: 1,
+  },
+  {
+    name: "DuckDuckGo",
+    limit: 4,
+  },
   ],
 
   /**
@@ -300,7 +298,6 @@ const CONFIG = {
    */
   iconExtension: "png",
 };
-
 
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Merging js: body.js begins */
