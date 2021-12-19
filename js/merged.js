@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 12:05:35 CST 2021  */
+/* Last merge : Sun Dec 19 15:09:54 CST 2021  */
 
 /* Merging order :
 
@@ -78,14 +78,14 @@ const CONFIG = {
       icon: "note",
       quickLaunch: false,
     },
-    {
-      category: "General",
-      name: "Downloader",
-      url: "https://dl.naizi.fun",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "download",
-      quickLaunch: false,
-    },
+    // {
+    //   category: "General",
+    //   name: "Downloader",
+    //   url: "https://dl.naizi.fun",
+    //   color: "linear-gradient(135deg, #dd5145, #dd5145)",
+    //   icon: "download",
+    //   quickLaunch: false,
+    // },
     {
       category: "General",
       name: "Files",
@@ -152,16 +152,16 @@ const CONFIG = {
       icon: "youtube",
       quickLaunch: false,
     },
-    {
-      category: "Fun",
-      name: "YouTube Music",
-      key: "ym",
-      url: "https://music.youtube.com/",
-      search: "/search?q={}",
-      color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
-      icon: "music",
-      quickLaunch: false,
-    },
+    // {
+    //   category: "Fun",
+    //   name: "YouTube Music",
+    //   key: "ym",
+    //   url: "https://music.youtube.com/",
+    //   search: "/search?q={}",
+    //   color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+    //   icon: "music",
+    //   quickLaunch: false,
+    // },
     {
       category: "Fun",
       name: "Pixiv",
