@@ -1,6 +1,7 @@
 # Tilde Enhanced Personal
 
-Based on [Ozencb/tilde-enhanced](https://github.com/Ozencb/tilde-enhanced).
+Based on [Ozencb/tilde-enhanced](https://github.com/Ozencb/tilde-enhanced) and [cadejscroggins/
+tilde](https://github.com/cadejscroggins/tilde)
 
 ## Added/Modified Features
 - Nicer clock
