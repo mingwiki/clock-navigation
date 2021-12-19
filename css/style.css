@@ -318,6 +318,7 @@ a:focus {
   margin-top: -0.06rem;
   font-size: 9vw;
   font-weight: var(--font-weight-normal);
+  color:gainsboro;
   text-align: center;
   border: #F1F1F1 .2rem dashed;
   background-color:dimgray;
