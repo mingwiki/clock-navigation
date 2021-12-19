@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 15:09:54 CST 2021  */
+/* Last merge : Sun Dec 19 15:16:19 CST 2021  */
 
 /* Merging order :
 
@@ -92,22 +92,6 @@ const CONFIG = {
       url: "https://dl.naizi.fun/files",
       color: "linear-gradient(135deg, #dd5145, #dd5145)",
       icon: "files",
-      quickLaunch: false,
-    },
-    {
-      category: "General",
-      name: "Bitwarden",
-      url: "https://bitwarden.naizi.fun/",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "bitwarden",
-      quickLaunch: false,
-    },
-    {
-      category: "General",
-      name: "WebDav",
-      url: "https://dav.naizi.fun/",
-      color: "linear-gradient(135deg, #dd5145, #dd5145)",
-      icon: "webdav",
       quickLaunch: false,
     },
 
@@ -201,6 +185,22 @@ const CONFIG = {
       search: "/search/index?searchType=icon&q={}",
       color: "#1a73e8",
       icon: "library-img",
+      quickLaunch: false,
+    },
+    {
+      category: "Other",
+      name: "Bitwarden",
+      url: "https://bitwarden.naizi.fun/",
+      color: "linear-gradient(135deg, #dd5145, #dd5145)",
+      icon: "bitwarden",
+      quickLaunch: false,
+    },
+    {
+      category: "Other",
+      name: "WebDav",
+      url: "https://dav.naizi.fun/",
+      color: "linear-gradient(135deg, #dd5145, #dd5145)",
+      icon: "webdav",
       quickLaunch: false,
     },
   ],
