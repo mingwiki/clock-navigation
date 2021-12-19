@@ -6,7 +6,7 @@ Based on [Ozencb/tilde-enhanced](https://github.com/Ozencb/tilde-enhanced).
 - Nicer clock
 - Snowjs, a very cool falling snow animation
 - Make it default to use Google
-- Exchange searchDelimiter and clock Delimiter
+- Exchange searchDelimiter and clockDelimiter
 ## Usage
 
 - Press `?` or click on the clock to enter nav.
