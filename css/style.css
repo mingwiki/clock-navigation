@@ -319,10 +319,17 @@ a:focus {
   font-size: 9vw;
   font-weight: var(--font-weight-normal);
   text-align: center;
+  border: #F1F1F1 .2rem dashed;
+  background-color:dimgray;
   letter-spacing: 0.05rem;
   cursor: pointer;
 }
-
+.esh{
+  font-size: 15vw;
+}
+.dt{
+  font-size: 9vw;
+}
 .am-pm {
   font-size: 1rem;
   letter-spacing: 0.1rem;

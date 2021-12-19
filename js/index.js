@@ -59,8 +59,6 @@ const form = new Form({
 
 new Clock({
   delimiter: CONFIG.clockDelimiter,
-  leftBrace: CONFIG.leftBrace,
-  rightBrace: CONFIG.rightBrace,
   toggleHelp: help.toggle,
   twentyFourHourClock: CONFIG.twentyFourHourClock,
 });
