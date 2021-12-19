@@ -14,7 +14,7 @@ const CONFIG = {
   },
   {
     category: "General",
-    name: "Mail",
+    name: "Gmail",
     key: "m",
     url: "https://gmail.com",
     search: "/#search/text={}",
