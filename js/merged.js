@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 19:14:35 CST 2021  */
+/* Last merge : Sun Dec 19 19:22:46 CST 2021  */
 
 /* Merging order :
 
@@ -58,6 +58,12 @@ const CONFIG = {
     key: "*",
     url: "https://google.com",
     search: "/search?q={}&pws=0&gl=us&gws_rd=cr",
+  },
+  {
+    name: 'Duckduckgo',
+    key: 'd',
+    url: 'https://duckduckgo.com',
+    search: '/?q={}'
   },
   {
     category: "General",

@@ -13,6 +13,12 @@ const CONFIG = {
     search: "/search?q={}&pws=0&gl=us&gws_rd=cr",
   },
   {
+    name: 'Duckduckgo',
+    key: 'd',
+    url: 'https://duckduckgo.com',
+    search: '/?q={}'
+  },
+  {
     category: "General",
     name: "Mail",
     key: "m",
