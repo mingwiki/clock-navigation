@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 17:14:20 CST 2021  */
+/* Last merge : Sun Dec 19 19:14:35 CST 2021  */
 
 /* Merging order :
 
@@ -57,7 +57,7 @@ const CONFIG = {
     name: "Google",
     key: "*",
     url: "https://google.com",
-    search: "/search?q={}",
+    search: "/search?q={}&pws=0&gl=us&gws_rd=cr",
   },
   {
     category: "General",
@@ -88,6 +88,7 @@ const CONFIG = {
   {
     category: "General",
     name: "Files",
+    key: "f",
     url: "https://dl.naizi.fun/files",
     color: "linear-gradient(135deg, #dd5145, #dd5145)",
     icon: "files",
@@ -106,7 +107,7 @@ const CONFIG = {
     name: "My Git",
     key: "g",
     url: "https://git.naizi.fun/mingwiki",
-    search: "/search?q={}",
+    search: "/?repo-search-query={}",
     color: "linear-gradient(135deg, #2b2b2b, #3b3b3b)",
     icon: "git",
     quickLaunch: true,
