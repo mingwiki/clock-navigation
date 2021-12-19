@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 15:18:22 CST 2021  */
+/* Last merge : Sun Dec 19 15:38:04 CST 2021  */
 
 /* Merging order :
 
@@ -165,9 +165,7 @@ const CONFIG = {
   {
     category: "Fun",
     name: "bilibili",
-    key: "b",
-    url: "https://search.bilibili.com/",
-    search: "/all?keyword={}",
+    url: "https://www.bilibili.com/",
     color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
     icon: "bilibili-line",
     quickLaunch: false,
@@ -199,6 +197,16 @@ const CONFIG = {
     url: "https://bitwarden.naizi.fun/",
     color: "linear-gradient(135deg, #dd5145, #dd5145)",
     icon: "bitwarden",
+    quickLaunch: false,
+  },
+  {
+    category: "Other",
+    name: "Baidu",
+    key: "b",
+    url: "https://www.baidu.com/",
+    search: "/s?wd={}",
+    color: "linear-gradient(135deg, #cd201f, #cd4c1f)",
+    icon: "baidu",
     quickLaunch: false,
   },
 
