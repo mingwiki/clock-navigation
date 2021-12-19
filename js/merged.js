@@ -5,7 +5,7 @@
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/* Last merge : Sun Dec 19 15:38:04 CST 2021  */
+/* Last merge : Sun Dec 19 16:52:54 CST 2021  */
 
 /* Merging order :
 
@@ -296,6 +296,8 @@ const CONFIG = {
    */
   clockDelimiter: ":",
 
+  leftBrace: "☾",
+  rightBrace: "☽︎",
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
    */
@@ -557,6 +559,8 @@ class Clock {
     constructor(options) {
       this._el = $.el('#clock');
       this._delimiter = options.delimiter;
+      this._leftBrace = options.leftBrace;
+      this._rightBrace = options.rightBrace;
       this._twentyFourHourClock = options.twentyFourHourClock;
       this._setTime = this._setTime.bind(this);
       this._el.addEventListener('click', options.toggleHelp);
@@ -580,7 +584,7 @@ class Clock {
   
       const minutes = $.pad(date.getMinutes());
       const seconds = $.pad(date.getSeconds());
-      this._el.innerHTML = `${hours}${this._delimiter}${minutes}${this._delimiter}${seconds}${amPm}`;
+      this._el.innerHTML = `${this._leftBrace}${this._leftBrace} ${hours}${this._delimiter}${minutes}${this._delimiter}${seconds}${amPm} ${this._rightBrace}${this._rightBrace}`;
       this._el.setAttribute('datetime', date.toTimeString());
     }
   
@@ -1254,6 +1258,8 @@ const form = new Form({
 
 new Clock({
   delimiter: CONFIG.clockDelimiter,
+  leftBrace: CONFIG.leftBrace,
+  rightBrace: CONFIG.rightBrace,
   toggleHelp: help.toggle,
   twentyFourHourClock: CONFIG.twentyFourHourClock,
 });

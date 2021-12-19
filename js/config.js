@@ -249,6 +249,8 @@ const CONFIG = {
    */
   clockDelimiter: ":",
 
+  leftBrace: "☾",
+  rightBrace: "☽︎",
   /**
    * Show a twenty-four-hour clock instead of a twelve-hour clock with AM/PM.
    */
